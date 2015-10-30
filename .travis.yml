@@ -4,5 +4,7 @@ xcode_project: tvtest.xcodeproj
 xcode_scheme: tvtest
 xcode_sdk: appletvsimulator9.0
 
+cache: cocoapods
+
 script:
   - xcodebuild -project tvtest.xcodeproj -scheme tvtest -sdk appletvsimulator9.0 build test
