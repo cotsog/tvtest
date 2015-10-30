@@ -1,1 +1,1 @@
-pod 'AFNetworking', '~> 2.0'
+pod 'Alamofire', '~> 2.0.0'
