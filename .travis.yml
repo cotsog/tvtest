@@ -5,5 +5,4 @@ xcode_scheme: tvtest
 xcode_sdk: appletvsimulator9.0
 
 script:
-  - xcodebuild -project tvtest.xcodeproj -scheme tvtest -sdk appletvsimulator9.0 build test || true
   - xcodebuild -project tvtest.xcodeproj -scheme tvtest -sdk appletvsimulator9.0 build test
