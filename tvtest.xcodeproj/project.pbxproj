@@ -397,7 +397,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.tvtestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvtest.app/tvtest";
 			};
 			name = Debug;
 		};
@@ -409,7 +408,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.tvtestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvtest.app/tvtest";
 			};
 			name = Release;
 		};
@@ -456,6 +454,7 @@
 				8CF6FFB01BE39F9C00829B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CF6FFB11BE39F9C00829B2B /* Build configuration list for PBXNativeTarget "tvtestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +463,7 @@
 				8CF6FFB31BE39F9C00829B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CF6FFB41BE39F9C00829B2B /* Build configuration list for PBXNativeTarget "tvtestUITests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +472,7 @@
 				8CF6FFB61BE39F9C00829B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
