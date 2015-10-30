@@ -1,2 +1,1 @@
-platform :tvos, '9.0'
-pod 'Alamofire', '~> 2.0.0'
+pod 'Alamofire', '~> 3.1.0'
