@@ -7,4 +7,4 @@ xcode_sdk: appletvsimulator9.0
 cache: cocoapods
 
 script:
-  - xcodebuild -workspace tvtest.xcworkspace -project tvtest.xcodeproj -scheme tvtest -sdk appletvsimulator9.0 build test
+  - xcodebuild -workspace tvtest.xcworkspace -scheme tvtest -sdk appletvsimulator9.0 build test
